@@ -17,7 +17,7 @@ public class MainPage extends BasePage {
     @FindBy(xpath = "//div[@class='container-lg px-2']")
     private WebElement errorMessage;
 
-    @FindBy(xpath = "//summary[@aria-label='Create new…']")
+    @FindBy(xpath = "/html/body/div[1]/header/div[6]/details/summary/span")
     private WebElement signPlusButton;
 
     @FindBy(xpath = "//a[@data-ga-click='Header, create new repository']")

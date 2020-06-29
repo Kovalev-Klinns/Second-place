@@ -8,7 +8,7 @@ public class NewRepositoryPage extends BasePage {
     @FindBy(id = "repository_name")
     private WebElement repositoryName;
 
-    @FindBy(xpath = "//button[@data-disable-with='Creating repository…']")
+    @FindBy(xpath = "//*[@id=\"new_repository\"]/div[3]/button")
     private WebElement createRepositoryButton;
 
     @FindBy(xpath = "//a[@data-pjax='#js-repo-pjax-container']")
